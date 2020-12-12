@@ -1,9 +1,13 @@
-# Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!1125671906/Config/XComSkirmRework.ini
-
-# ...even if they are in subdirectories
-!*/
+# Ignore non-config files
+*.chn
+*.cht
+*.fra
+*.jpg
+*.png
+*.rus
+*.txt
+*.u
+*.uc
+*.uci
+*.umap
+*.upk
