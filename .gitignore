@@ -2,6 +2,7 @@
 *.chn
 *.cht
 *.fra
+*.int
 *.jpg
 *.png
 *.rus
@@ -11,3 +12,4 @@
 *.uci
 *.umap
 *.upk
+*.XComMod
