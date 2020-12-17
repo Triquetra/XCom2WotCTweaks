@@ -71,19 +71,16 @@ simulated function RemoveUnclassedSparks(UISquadSelect Screen)
 simulated function ForcePickClass(UIArmory_Promotion Screen)
 {
 	local UI_SelectSparkClasses Alert;
-	local XComPresentationLayerBase Pres;
-
-	Pres = XComPresentationLayerBase(Screen.Owner);
 
 	// Prevent double dialog
-	if (Pres.ScreenStack.HasInstanceOf(class'UI_SelectSparkClasses'))
+	if (`HQPRES.ScreenStack.HasInstanceOf(class'UI_SelectSparkClasses'))
 		return;
 
 	if (Screen.GetUnit() != none && Screen.GetUnit().GetSoldierClassTemplateName() == 'SparkChooseClass')
 	{
-		Alert = Pres.Spawn(class'UI_SelectSparkClasses', Pres);
+		Alert = `HQPRES.Spawn(class'UI_SelectSparkClasses', `HQPRES);
 		Alert.UnitRef = Screen.GetUnitRef();
 		Screen.OnCancel(); // Pop out
-		Pres.ScreenStack.Push(Alert);
+		`HQPRES.ScreenStack.Push(Alert);
 	}
 }
