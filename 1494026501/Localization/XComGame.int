@@ -8,6 +8,7 @@ RankNames[4]="Disciple"
 RankNames[5]="Mystic"
 RankNames[6]="Warlock"
 RankNames[7]="Magus"
+RankNames[8]="Master" ; for Long War Hero Perk Pack
  
 ShortNames[0]="Rk."
 ShortNames[1]="Int."
@@ -17,6 +18,7 @@ ShortNames[4]="Dsc."
 ShortNames[5]="Mys."
 ShortNames[6]="War."
 ShortNames[7]="Mag."
+ShortNames[8]="Mstr." ; for Long War Hero Perk Pack
  
 RankIcons[0]= "UILibrary_Common.rank_rookie"
 RankIcons[1]= "UILibrary_Common.psirank_initiate"
@@ -26,3 +28,4 @@ RankIcons[4]= "UILibrary_Common.psirank_disciple"
 RankIcons[5]= "UILibrary_Common.psirank_mystic"
 RankIcons[6]= "UILibrary_Common.psirank_warlock"
 RankIcons[7]= "UILibrary_Common.psirank_magus"
+RankIcons[8]= "UILibrary_LW_PerkPack.psirank_Master" ; for Long War Hero Perk Pack
