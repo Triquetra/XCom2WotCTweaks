@@ -2,8 +2,9 @@
 *
 
 # But not these files...
-# !.gitignore
+!.gitignore
+!*.ini
 # !1125671906/Config/XComSkirmRework.ini
 
 # ...even if they are in subdirectories
-# !*/
+!*/
