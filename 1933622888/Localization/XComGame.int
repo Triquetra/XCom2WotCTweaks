@@ -1,0 +1,64 @@
+[FacilitiesPlus]
+MOD_NAME="FacilitiesPlus"
+
+; PsiLab
+[PsiChamber_SecondCell X2FacilityUpgradeTemplate]
+DisplayName="Second Cell Expansion"
+Summary="Add another cell to the Psi Lab, allowing an additional Psi Operative to train here.\nAdds 1 additional Staffslot."
+[PsiChamberScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+
+; Infirmary
+[Infirmary_RecoveryChamber X2FacilityUpgradeTemplate]
+DisplayName="Hypervital Module Expansion"
+Summary="Upgrades the Infirmary with a Hypervital Module; which can be used to instantly restore any soldier to a combat-ready state for a single mission.\nAdds 1 additional Staffslot, allowing 1 more Staff and 1 more Soldier to be stationed in this facility."
+[AWCScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+
+; PowerRelay
+[PowerRelay_PowerConduit X2FacilityUpgradeTemplate]
+DisplayName="[Tier 1] Work Station"
+Summary="Adds 1 additional Staffslot and a new Power Conduit to increase our power capacity."
+[PowerRelay_Upgrade_Level_2 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 2] Work Station"
+Summary="Adds 1 additional Staffslot."
+[PowerRelay_Upgrade_Level_3 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 3] Work Station"
+Summary="Adds 1 additional Staffslot."
+
+; Laboratory
+[Laboratory_AdditionalResearchStation X2FacilityUpgradeTemplate]
+DisplayName="[Tier 1] Reasearch Station"
+Summary="Adds 1 additional StaffSlot."
+[Laboratory_Upgrade_Level_2 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 2] Reasearch Station"
+Summary="Adds 1 additional StaffSlot."
+[Laboratory_Upgrade_Level_3 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 3] Reasearch Station"
+Summary="Adds 1 additional StaffSlot."
+
+; ResistanceComms
+[ResistanceComms_AdditionalCommStation X2FacilityUpgradeTemplate]
+DisplayName="[Tier 1] Communication Slot"
+Summary="Adds 1 additional StaffSlot."
+[ResistanceComms_Upgrade_Level_2 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 2] Communication Slot"
+Summary="Adds 1 additional StaffSlot."
+[ResistanceComms_Upgrade_Level_3 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 3] Communication Slot"
+Summary="Adds 1 additional StaffSlot."
+[ResCommsStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+[ResCommsBetterStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+
+; ProvingGround
+[ProvingGround_Upgrade_Level_1 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 1] Work Station"
+Summary="Adds 1 additional StaffSlot."
+[ProvingGround_Upgrade_Level_2 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 2] Work Station"
+Summary="Adds 1 additional StaffSlot."
+[ProvingGround_Upgrade_Level_3 X2FacilityUpgradeTemplate]
+DisplayName="[Tier 3] Work Station"
+Summary="Adds 1 additional StaffSlot."
