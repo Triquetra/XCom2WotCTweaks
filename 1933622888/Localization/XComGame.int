@@ -47,10 +47,10 @@ Summary="Adds 1 additional StaffSlot."
 [ResistanceComms_Upgrade_Level_3 X2FacilityUpgradeTemplate]
 DisplayName="[Tier 3] Communication Slot"
 Summary="Adds 1 additional StaffSlot."
-[ResCommsStaffSlot X2StaffSlotTemplate]
-EmptyText="OPEN: SCIENTIST REQUIRED"
-[ResCommsBetterStaffSlot X2StaffSlotTemplate]
-EmptyText="OPEN: SCIENTIST REQUIRED"
+;[ResCommsStaffSlot X2StaffSlotTemplate]
+;EmptyText="OPEN: SCIENTIST REQUIRED"
+;[ResCommsBetterStaffSlot X2StaffSlotTemplate]
+;EmptyText="OPEN: SCIENTIST REQUIRED"
 
 ; ProvingGround
 [ProvingGround_Upgrade_Level_1 X2FacilityUpgradeTemplate]
