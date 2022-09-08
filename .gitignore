@@ -8,3 +8,14 @@
 
 # ...even if they are in subdirectories
 !*/
+
+# File Watch Exceptions
+XComEditor.ini
+XComEngine.ini
+# Mod Watch Exceptions
+## Odd Tweaks Season 7
+2692821840
+## Core Collection Meta Mod
+2166295671
+## RedDobe Gameplay Tweaks V6.0
+2072749925
